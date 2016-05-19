@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C9927A51CEA1BD500E7E6A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9927A41CEA1BD500E7E6A4 /* AppDelegate.swift */; };
-		8C9927A71CEA1BD500E7E6A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9927A61CEA1BD500E7E6A4 /* ViewController.swift */; };
 		8C9927AA1CEA1BD500E7E6A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C9927A81CEA1BD500E7E6A4 /* Main.storyboard */; };
 		8C9927AC1CEA1BD500E7E6A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9927AB1CEA1BD500E7E6A4 /* Assets.xcassets */; };
 		8C9927AF1CEA1BD500E7E6A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C9927AD1CEA1BD500E7E6A4 /* LaunchScreen.storyboard */; };
 		8C9927BA1CEA1BD500E7E6A4 /* NYHealthyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9927B91CEA1BD500E7E6A4 /* NYHealthyTests.swift */; };
 		8C9927C51CEA1BD500E7E6A4 /* NYHealthyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9927C41CEA1BD500E7E6A4 /* NYHealthyUITests.swift */; };
+		8C9927EA1CEA235200E7E6A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9927E41CEA235200E7E6A4 /* AppDelegate.swift */; };
+		8C9927EB1CEA235200E7E6A4 /* FitnessInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9927E61CEA235200E7E6A4 /* FitnessInformationViewController.swift */; };
+		8C9927EC1CEA235200E7E6A4 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9927E71CEA235200E7E6A4 /* UserProfileViewController.swift */; };
+		8C9927ED1CEA235200E7E6A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9927E81CEA235200E7E6A4 /* ViewController.swift */; };
+		8C9927EF1CEA239A00E7E6A4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9927EE1CEA239A00E7E6A4 /* MainViewController.swift */; };
+		8C9927F11CEA246A00E7E6A4 /* DataReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9927F01CEA246A00E7E6A4 /* DataReportViewController.swift */; };
+		8C9927F41CEA27EE00E7E6A4 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9927F31CEA27EE00E7E6A4 /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +40,6 @@
 
 /* Begin PBXFileReference section */
 		8C9927A11CEA1BD500E7E6A4 /* NYHealthy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYHealthy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C9927A41CEA1BD500E7E6A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8C9927A61CEA1BD500E7E6A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C9927A91CEA1BD500E7E6A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C9927AB1CEA1BD500E7E6A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C9927AE1CEA1BD500E7E6A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,14 @@
 		8C9927C01CEA1BD500E7E6A4 /* NYHealthyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYHealthyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9927C41CEA1BD500E7E6A4 /* NYHealthyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYHealthyUITests.swift; sourceTree = "<group>"; };
 		8C9927C61CEA1BD500E7E6A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C9927E41CEA235200E7E6A4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C9927E61CEA235200E7E6A4 /* FitnessInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessInformationViewController.swift; sourceTree = "<group>"; };
+		8C9927E71CEA235200E7E6A4 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		8C9927E81CEA235200E7E6A4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C9927EE1CEA239A00E7E6A4 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8C9927F01CEA246A00E7E6A4 /* DataReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataReportViewController.swift; sourceTree = "<group>"; };
+		8C9927F21CEA27ED00E7E6A4 /* NYHealthy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NYHealthy.entitlements; sourceTree = "<group>"; };
+		8C9927F31CEA27EE00E7E6A4 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C9927F41CEA27EE00E7E6A4 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +89,7 @@
 		8C9927981CEA1BD500E7E6A4 = {
 			isa = PBXGroup;
 			children = (
+				8C9927F31CEA27EE00E7E6A4 /* HealthKit.framework */,
 				8C9927A31CEA1BD500E7E6A4 /* NYHealthy */,
 				8C9927B81CEA1BD500E7E6A4 /* NYHealthyTests */,
 				8C9927C31CEA1BD500E7E6A4 /* NYHealthyUITests */,
@@ -97,8 +110,12 @@
 		8C9927A31CEA1BD500E7E6A4 /* NYHealthy */ = {
 			isa = PBXGroup;
 			children = (
-				8C9927A41CEA1BD500E7E6A4 /* AppDelegate.swift */,
-				8C9927A61CEA1BD500E7E6A4 /* ViewController.swift */,
+				8C9927F21CEA27ED00E7E6A4 /* NYHealthy.entitlements */,
+				8C9927E11CEA235200E7E6A4 /* Common */,
+				8C9927E21CEA235200E7E6A4 /* Global */,
+				8C9927E31CEA235200E7E6A4 /* Main */,
+				8C9927E51CEA235200E7E6A4 /* Scenario */,
+				8C9927E91CEA235200E7E6A4 /* Utility */,
 				8C9927A81CEA1BD500E7E6A4 /* Main.storyboard */,
 				8C9927AB1CEA1BD500E7E6A4 /* Assets.xcassets */,
 				8C9927AD1CEA1BD500E7E6A4 /* LaunchScreen.storyboard */,
@@ -123,6 +140,47 @@
 				8C9927C61CEA1BD500E7E6A4 /* Info.plist */,
 			);
 			path = NYHealthyUITests;
+			sourceTree = "<group>";
+		};
+		8C9927E11CEA235200E7E6A4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8C9927E21CEA235200E7E6A4 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		8C9927E31CEA235200E7E6A4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8C9927E41CEA235200E7E6A4 /* AppDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8C9927E51CEA235200E7E6A4 /* Scenario */ = {
+			isa = PBXGroup;
+			children = (
+				8C9927E61CEA235200E7E6A4 /* FitnessInformationViewController.swift */,
+				8C9927E71CEA235200E7E6A4 /* UserProfileViewController.swift */,
+				8C9927E81CEA235200E7E6A4 /* ViewController.swift */,
+				8C9927EE1CEA239A00E7E6A4 /* MainViewController.swift */,
+				8C9927F01CEA246A00E7E6A4 /* DataReportViewController.swift */,
+			);
+			path = Scenario;
+			sourceTree = "<group>";
+		};
+		8C9927E91CEA235200E7E6A4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +251,12 @@
 				TargetAttributes = {
 					8C9927A01CEA1BD500E7E6A4 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = P66P3CXU58;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					8C9927B41CEA1BD500E7E6A4 = {
 						CreatedOnToolsVersion = 7.3;
@@ -256,8 +320,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C9927A71CEA1BD500E7E6A4 /* ViewController.swift in Sources */,
-				8C9927A51CEA1BD500E7E6A4 /* AppDelegate.swift in Sources */,
+				8C9927EB1CEA235200E7E6A4 /* FitnessInformationViewController.swift in Sources */,
+				8C9927EC1CEA235200E7E6A4 /* UserProfileViewController.swift in Sources */,
+				8C9927ED1CEA235200E7E6A4 /* ViewController.swift in Sources */,
+				8C9927EA1CEA235200E7E6A4 /* AppDelegate.swift in Sources */,
+				8C9927F11CEA246A00E7E6A4 /* DataReportViewController.swift in Sources */,
+				8C9927EF1CEA239A00E7E6A4 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NYHealthy/NYHealthy.entitlements;
 				INFOPLIST_FILE = NYHealthy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sune.bear.nycode.NYHealthy;
@@ -412,6 +481,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NYHealthy/NYHealthy.entitlements;
 				INFOPLIST_FILE = NYHealthy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sune.bear.nycode.NYHealthy;
